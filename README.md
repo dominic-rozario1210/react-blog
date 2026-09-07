@@ -1,16 +1,67 @@
-# React + Vite
+# React Blog
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive blog website built with React and React Router.
 
-Currently, two official plugins are available:
+The project displays technology-related blog posts with category-based navigation and individual blog pages. It also includes a responsive mobile layout with a hamburger navigation menu.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Features
 
-## React Compiler
+- Responsive blog layout
+- Blog cards with images and titles
+- Individual blog detail pages
+- Category-based navigation
+- Full Stack Development category
+- Data Science category
+- Cyber Security category
+- AI category
+- React Router navigation
+- Mobile hamburger menu
+- Responsive blog detail pages
+- Search bar UI
+- Sign-in UI
+- Clean and simple design
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Technologies Used
 
-## Expanding the ESLint configuration
+- React
+- React Router DOM
+- JavaScript
+- HTML
+- CSS
+- Vite
+- Font Awesome
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📂 Project Structure
+
+```text
+react-blog/
+│
+├── public/
+│
+├── src/
+│   ├── assets/
+│   │   ├── blog images
+│   │
+│   ├── components/
+│   │   ├── Ai.jsx
+│   │   ├── All.jsx
+│   │   ├── Blog.jsx
+│   │   ├── BlogCard.jsx
+│   │   ├── CyberSecurity.jsx
+│   │   ├── DataScience.jsx
+│   │   ├── Error.jsx
+│   │   ├── Fullstack.jsx
+│   │   ├── Header.jsx
+│   │   ├── Navbar.jsx
+│   │   └── Template.jsx
+│   │
+│   ├── data/
+│   │   └── blogsData.js
+│   │
+│   ├── App.jsx
+│   ├── App.css
+│   ├── index.css
+│   └── main.jsx
+│
+├── package.json
+└── README.md
